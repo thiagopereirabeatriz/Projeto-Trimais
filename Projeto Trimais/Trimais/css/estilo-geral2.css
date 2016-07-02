@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+
+
+.telContato{
+	text-align: right;
+	font-family:sans-serif;
+	color: white;
+	padding: 7px 30px 4px 0px;
+	margin: auto;
+
+
+}
+
+.topo{
+	padding: 0px !important;
+	margin: 0px 0px 0px 0px;
+	background-color: rgba(0,0,0,0.9);
+	border-radius: 0px;
+	border:0px;
+	min-height: 35px;
+
+}
+.navbar{
+	padding: 10px;
+}
+
+.navbar-brand img{
+	width: 200px;
+	padding: 0px;
+	margin: -8px;
+	margin-right: 40px;
+
+}
+.navbar-brand{
+	padding: 2px;
+}
+
+
+
+nav.navbar {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+footer.rodape{
+	background-color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+}
+footer h4{
+	color: white;
+	text-align: center;
+	text-shadow: 1px 4px 2px #808080;
+}
+
+footer h6{
+	text-align: center;
+}
+
+.frases{
+	/*display: none;*/
+	text-align: center;
+	display: none;
+
+}
+.frases h1{
+	color: red;
+	font-family:'Lobster','Helvetica',sans-serif;
+	text-shadow: 8px 4px 8px #000000;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+.frases h2{
+	text-align: center;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+.frases p{
+	font-size: 16px;
+	text-shadow: 8px 4px 8px #000000;
+	color: white;
+	font-weight: bolder;
+	padding: 0px;
+	
+
+	
+}
+.frases .caixa1{
+	border-top: 2px solid black;
+	background-color: rgba(0,0,0,0.8);
+	font-color:white;
+	width: 100%;
+	height: auto;
+
+
+	margin: 0px;
+	
+}
+.caixa1 img{
+	position: relative;
+	padding-bottom: 50px;
+
+
+	margin: auto;
+}
+
+
+.frases .caixa2{
+	background-color: rgba(0,1,0,0.7);
+}
+
+
+.caixa3{
+	background-color: rgba(1,7,0,0.7);}
+
+ 
+/* aplica somente a partir de 360px */
+@media screen and (max-width: 384px) {
+	.navbar-brand img{ position: absolute; padding-right: 60px;
+
+	}
+	footer h4{ font-size: 10pt; }
+	.frases{display: block;}
+		div.container-fluid{ min-width: 360px; }
+}
+
+
+/* PAGINA OFERTAS */
+
+.jumbotron {
+	    background-image: url("../img/jumbotron-background.jpg") !important;
+	       margin-bottom: 0px;
+   
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+	}
+
+	iframe{
+    width:100%;
+    height:280px;
+    border:none;
+    overflow: hidden;
+}
+
+	iframe::-webkit-scrollbar{
+    display: none;
+}
+
+.trimais {
+	width: 1349px;
+	height: 600px;
+	background-image:url("../img/fundo2.png");
+	/*background-color:rgba(05,46,126,1);*/
+
+
+}
+
+.trimais h1{
+	   margin-bottom: 0px;
+   font-family: 'Helvetica',sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bolder;
+    /*text-shadow: black 0.3em 0.3em 0.3em;*/
+    text-align: center;
+    font-size: 40pt;
+    padding: 40px;
+
+}
+
+.videoTrimais{
+	position:absolute;
+	top: 300px;
+	margin-left: 350px;
+	
+
+}
+
+.trimais .videoTrimais{
+display: block;
+background-color: rgba(0,0,0,0.5);
+
+}
+
+
+.trimais h1:hover{
+	background-color: rgba(0,0,0,0.5);
+
+}
+.trimais a{
+	text-decoration: none;
+}

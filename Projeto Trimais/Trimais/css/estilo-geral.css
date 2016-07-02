@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+.navbar{
+    margin-bottom: 0px;
+}
+nav#menuPrincipal{
+    margin-bottom: 0px;
+    padding:0px;
+    border-bottom: 0px;
+    background-color: rgba(255, 255, 1, 0);
+}
+#navbar-topo{
+    border-radius: 0px;
+    background-color: rgba(1,47,131,1);
+    height:10px !important;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #000000;
+
+}
+
+
+#navbar-topo h5{
+    color: #ffffff;
+    font-weight: bolder;
+    margin-top:15px;
+
+}
+
+.corpo{
+    border-top:0px;
+    margin-top: 0px;
+  background-image: url("../img/fundo3.png");
+    height:600px;
+}
+
+.rodape h6{
+    color: #ffffff;
+    text-align: center;
+}
+
+.rodape h4{
+    color: #ffffff;
+    text-align: center;
+}
+
+footer.rodape{
+    background-color: rgba(1,47,131,1);
+    border:0px;
+    margin:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+}
+
+
+/* PAGINA OFERTAS */
+
+.jumbotron {
+    background-image: url("../img/jumbotron-background.jpg") !important;
+    margin-bottom: 0px;
+
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+iframe{
+    width:100%;
+    height:280px;
+    border:none;
+    overflow: hidden;
+}
+
+iframe::-webkit-scrollbar{
+    display: none;
+}
+
+.trimais {
+    width: 1349px;
+    height: 600px;
+    background-image:url("../img/fundo2.png");
+    /*background-color:rgba(05,46,126,1);*/
+
+
+}
+
+.trimais h1{
+    margin-bottom: 0px;
+    font-family: 'Helvetica',sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bolder;
+    /*text-shadow: black 0.3em 0.3em 0.3em;*/
+    text-align: center;
+    font-size: 40pt;
+    padding: 40px;
+    margin-top:0px;
+
+}
+
+.videoTrimais{
+    position:absolute;
+    top: 300px;
+    margin-left: 350px;
+
+
+}
+
+.trimais .videoTrimais{
+    display: block;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+
+.trimais h1:hover{
+    background-color: rgba(0,0,0,0.5);
+
+}
+.trimais a{
+    text-decoration: none;
+}.corpo-ofertas{
+    margin-top: 10px;
+    height: 900px;
+ }
+
+ul.lista-selecao-ofertas .hortiFruti {
+    background: #4cae4c;
+    border-radius: 10px;
+    color: #ffffff;
+}
+ul.lista-selecao-ofertas .hortiFruti:hover {
+   opacity:0.5;
+    background: #4cae4c;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.nav li a{
+    color: #ffffff;
+    font-weight:bolder;
+}
+ul.lista-selecao-ofertas .acougue {
+    background: #f70003;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+ul.lista-selecao-ofertas .padaria {
+    background: #f7f061;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+@media (max-width:741px) {
+
+#container-principal{display:none;}
+
+    
+
+}
+
+.trimais-mobile{
+    min-width: 439px;
+    width:100%;
+    height:500px;
+    background-image: url("../img/background-mobile/fundo_trimais_mobile.png");
+    background-position: center;
+    min-width: 439px;
+    max-width: 439px;
+}
+
+.trimais-mobile h1{
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    margin:0px;
+    border:0px;
+
+}
+
+.embed-responsive-16by9{
+    padding-bottom: auto;
+}
+
+iframe{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: block;
+
+
+
+}
+
+footer h6,h4{
+    margin: 0px;
+}
